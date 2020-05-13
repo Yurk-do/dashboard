@@ -1,0 +1,43 @@
+body {
+    font-size: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ;
+    }
+#header {
+    height: 70px;
+    }
+.sidebar {
+    position: absolute;
+    height: 750px;
+    width: 250px;
+}
+#top-conteiner {
+    margin-top: 20px;
+    position: absolute;
+    height: 750px;
+    width: 1200px;
+    margin-left: 300px;
+}
+.main-information {
+    margin: 10px;
+    height: 400px;
+    width: 1100;
+}
+.diagrams {
+    margin: 10px;
+    float: left;
+    height: 300px;
+    width: 500px;
+    }
+.grafics {
+    margin: 10px;
+    float: right;
+    height: 300px;
+    width: 500px;
+}
+#footer {
+
+}
+.bordered {
+    border: 2px black dotted;
+}
