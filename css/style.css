@@ -2,50 +2,55 @@
 
 html {
     height: 100%;
-    }
+}
+
 body {
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 0px;
+    position: relative;
+    margin: 2em 2.5em 0em 2.5em;
     min-height: 100%;
-    }
+}
+
 #header {
-    height: 70px;
-    margin-left: 160px;
+    height: 4.5em;
+    margin-left: 10.5em;
     margin-right: auto;
-    }
+}
+
 #header p {
-    padding-top: 0px;
-    margin-top: 0px;
+    padding-top: 0em;
+    margin-top: 0em;
     padding-top: 0.4em;
     padding-left: 1em;
 }
+
 #search {
     position: absolute;
     top: 2em;
     right: 6em;
     width: 15em;
 }
+
 #sidebar {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 160px;
+    top: 0em;
+    left: 0em;
+    width: 10.5em;
     min-height: 100%;
-    }
+}
+
 #sidebar p {
     margin-top: 0em;
     padding-top: 0.4em;
     text-align: center;
 }
+
 #sidebar ul {
     list-style-type: none;
     display: block;
     padding: 0em;
     width: 100%;
 }
+
 #sidebar li {
     display: block;
     margin-top: 3em;
@@ -53,88 +58,104 @@ body {
     margin-right: 1em;
     padding: 0.5em;
     text-align: center;
-    } 
+}
+
 #top-conteiner {
-    margin-left: 160px;
-    margin-bottom: 40px;
-    }
+    margin-left: 10.5em;
+}
 
 #main-information {
     text-align: justify;
     padding: 0.9em;
 }
+
 #down {
     position: absolute;
-    bottom: 0px;
-    height: 40px;
+    bottom: 0em;
+    height: 3em;
     width: 100%;
-    }
+    padding: 0em;
+    margin: 0em;
+}
+
 #down p {
     margin-bottom: 0em;
     padding-bottom: 0em;
     text-align: right;
     padding-right: 2em;
-    }
+}
 
-#grafic {
+#picture1 {
     float: left;
     display: block;
     height: 20em;
     width: 25em;
     margin: 2em 1em 2em 1em;
 }
-#diagram1 {
+
+#picture2 {
     float: right;
     display: block;
     height: 20em;
     width: 25em;
-    margin: 2em 1em 2em -4em;
-   }
-.icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2em;
+    margin: 2em 1em 2em 1em;
 }
+
+#picture3 {
+    display: block;
+    padding-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #section2 {
     width: 100%;
 }
+
 #section2 img {
     float: left;
     display: block;
-    width: 25%;
+    width: 40%;
     height: 15em;
-    margin-left: 5em; 
+    margin-left: 4.5em;
     margin-top: 1em;
     margin-bottom: 1em;
     box-shadow: 27px -17px 6px 5px rgba(34, 60, 80, 0.2);
-    }
+}
+
 .clearfix::after {
     clear: both;
     display: block;
     content: "";
     width: 100%;
+    margin-bottom: 3em;
 }
 
 /* Colors */
 html {
-    background-color: white;
+    background-color: #aaaaaa;
 }
+
 body {
     background-color: white;
 }
+
 #header {
     background: linear-gradient(180deg, rgb(77, 91, 94) 6%, rgb(23, 79, 81));
 }
+
 #sidebar {
     background: linear-gradient(180deg, rgb(57, 169, 95) 6%, rgb(23, 79, 81));
 }
+
 #top-conteiner {
     background: linear-gradient(0deg, rgb(71, 150, 87) 34%, rgb(62, 73, 129));
 }
+
 #down {
     background: linear-gradient(0deg, rgb(36, 44, 69) 18%, rgb(62, 73, 129));
 }
+
 #sidebar li:hover {
     color
 }
@@ -146,46 +167,54 @@ body {
     border-radius: 20px 20px 0px 0px;
     box-shadow: 24px -19px 2px -5px rgba(34, 60, 80, 0.6);
 }
+
 #header {
     border-radius: 0px 20px 0px 0px;
 }
+
 #sidebar {
     border-radius: 20px 0px 0px 0px;
 }
+
 #sidebar li {
     border-radius: 1em;
     box-shadow: 0px 5px 0px 2px rgba(0, 0, 0, 0.2);
 }
+
 #search {
     border-radius: 1em;
-    }
+}
 
 /* Fonts */
 body {
-    font-family: ‘Merriweather’, serif; 
+    font-family: ‘Merriweather’, serif;
     font-size: 15px;
 }
+
 #header p {
     font-size: 2.5em;
     font-weight: 300;
     color: rgba(30, 39, 41, 0.973);
-    text-shadow: #2a8d7b -1px -1px; 
+    text-shadow: #2a8d7b -1px -1px;
 }
+
 #sidebar p {
     font-size: 2.5em;
     text-transform: uppercase;
     font-weight: 300;
     color: rgba(53, 69, 83, 0.973);
-    text-shadow: #08451d -1px -1px; 
+    text-shadow: #08451d -1px -1px;
 }
+
 #sidebar li {
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 300;
     color: rgba(53, 69, 83, 0.973);
-    text-shadow: #08451d -1px -1px; 
+    text-shadow: #08451d -1px -1px;
     background-color: teal;
 }
+
 #sidebar li:hover {
     color: rgb(65, 65, 129);
     transition-duration: 0.5s;
